@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>fussion.jp - Official App Portal</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans JP", sans-serif;
+      background: #f8f9fa;
+      color: #222;
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, #5a8dee, #8e44ad);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    p.subtitle {
+      margin-top: 8px;
+      font-size: 1rem;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 16px;
+    }
+
+    .app-card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      transition: 0.2s;
+      text-decoration: none;
+      display: block;
+      color: inherit;
+    }
+
+    .app-card:hover {
+      box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+      transform: translateY(-3px);
+    }
+
+    .app-title {
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+
+    .app-desc {
+      font-size: 0.95rem;
+      opacity: 0.8;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.85rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>fussion.jp</h1>
+  <p class="subtitle">Official App Portal</p>
+</header>
+
+<div class="container">
+
+  <!-- Kaleido -->
+  <a href="/kaleidoscope/" class="app-card">
+    <div class="app-title">fussion Kaleidoscope</div>
+    <div class="app-desc">
+      写真を選ぶだけで美しい万華鏡アートを生成するアプリ。  
+      <br>プライバシーポリシー（日本語 / 英語）もこちら。
+    </div>
+  </a>
+
+  <!-- Camera (例: まだ作ってない場合はコメント化) -->
+  <a href="/call/" class="app-card">
+    <div class="app-title">fussion Call</div>
+    <div class="app-desc">
+      生声を利用したアラームアプリ。  
+      <br>プライバシーポリシー（日本語 / 英語）もこちら。
+    </div>
+  </a>
+
+<footer>
+  © 2025 Eversystem Inc., fussion.jp
+</footer>
+
+</body>
+</html>
